@@ -119,7 +119,14 @@ console.log(bigBird('dog'));
  * If the strings are equal, the function will return the message "You look mahvelous!" Otherwise, return the message: "I don't know who you are anymore." 
  * Console.log your result.
 */
-
+function isEqual(first, second){
+  if(first === second){
+  return 'you look mahvelous!'
+}else{
+ return "i don't know who you are anymore"
+  }
+}
+console.log(isEqual("three", "6"));
 
 /*
  * #7
