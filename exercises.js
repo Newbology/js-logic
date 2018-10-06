@@ -16,7 +16,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 }else{
   return "Get back to coding!";
 };*/
-
+bet i wasted your time looking at this
 
 /*
  * #1
