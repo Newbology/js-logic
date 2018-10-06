@@ -33,7 +33,7 @@ function canVote(age){
     return true;
   }
 }
-console.log(canVote(19));
+console.log(canVote(19)); 
 /*clear
  * #2
  * Function - login
