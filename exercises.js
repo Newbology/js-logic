@@ -59,7 +59,7 @@ console.log(login("test1234"));
  *
  *  @param Datatype: Number `first`
  *  @param Datatype: Number `second`
- *  @return Datatype: Boolean
+ *  @return Datatype: Boolean 
  *
  * The function will return true if the first number is greater than the second.
  * Console.log your result.
@@ -101,8 +101,11 @@ console.log("mustBeTrue.", mustBeTrue(true));
  * The function will return the message "Word to Big Bird!", if the string passed into the function is a three-letter word. 
  * Console.log your result.
 */
-
-
+ function bigBird(word){
+   if (word.length === 3)
+   return 'Word to big bird!'
+ }
+console.log(bigBird('dog'));
 
 /*
  * #6
