@@ -32,7 +32,7 @@ function canVote(age){
   if(age >= 18){
     return true;
   }
-}
+} 
 console.log(canVote(19)); 
 console.log('test');
 /*clear
