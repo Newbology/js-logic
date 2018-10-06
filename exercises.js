@@ -16,7 +16,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 }else{
   return "Get back to coding!";
 };*/
-bet i wasted your time looking at this
+//bet i wasted your time looking at this
 
 /*
  * #1
@@ -46,7 +46,11 @@ console.log('test');
  * The function will return the message: "Login Success!", if the string passed into the function is "test1234"
  * Console.log your result.
 */
-
+function login(password){ 
+  if(password === "test1234")
+  return "password test " + true;
+}
+console.log(login("test1234"));
 
 /*
  * #3
