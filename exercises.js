@@ -353,7 +353,7 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 3"
  * "Player: 4"
  * "Player: 5"
-*/
+*/ //already did this one, but i had to go back and re-save this for practice.
 var players =['1', '2', '3', '4', '5'];
 
 for (var i=0; i<players.length; i++){
