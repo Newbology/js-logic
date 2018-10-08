@@ -409,6 +409,24 @@ console.log('sumitup', sumItUp(numArray));
 */ 
 
 var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Sidney Deane", "World B Free"];
+ 
+var east = [];
+var west = [];
+function allStars(ballers){
+  for(var i=0; i<ballers.length; i++){
+    console.log(ballers[i]);
+    if(i%2===0){
+      console.log(i);
+      east.push(ballers[i]);
+    }else{
+      west.push(ballers[i]);
+    }
+  }
+}
+allStars(players);
+console.log('east: ', east);
+console.log('west: ', west);
+
 /*
  * #19
  * Function - subways
@@ -423,6 +441,20 @@ var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Si
 
   var subOftheDay = ["Teriyaki Chicken", "Spicy Italian", "Turkey", "BMT", "Black Forest Ham", "Meatball Marinara", "Veggie"];
 
+function subways(special){
+  for(var i=0; i<special.length; i++){
+  console.log(special[i]);
+  if(i%2===1){
+    console.log(i);
+    special.splice(i, 1, 'classic Tuna');
+    special[i] = 'classic tuna'
+    }
+
+  }
+  return special;
+}
+subways(subOftheDay);
+console.log(subOftheDay);
 
 /*
 Final Boss
@@ -438,8 +470,18 @@ Final Boss
 
 var phrase = "An apple a day keeps Alice feeling awesome!";
  
-  
-  
+  function removeLetter(str){
+    var newArr =[];
+    for(var i=0; i<str.length; i++){
+      console.log(str[i]);
+      if(str[i]!=='a'&&str[i]!=="A"){
+        newArr.push(str[i]);
+      }
+    }
+    console.log(newArr);
+    return newArr;
+  }
+  removeLetter(phrase);
 
 
 
